@@ -1,18 +1,19 @@
-const logotext = "JOHN";
+const logotext = "RAJOAN";
 const meta = {
     title: "John Doe",
     description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Rajoan",
     animated: {
         first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        second: "Building fast and accessible web experiences.",
+        third: "Turning ideas into interactive user interfaces.",
+        
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "Passionate about turning ideas into web applications with responsive designs and a seamless user experience.",
+    your_img_url: "https://i.ibb.co.com/pjG2mdK/6208502920496923147.jpg",
 };
 
 const dataabout = {
@@ -147,9 +148,9 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
+    github: "https://github.com/Biplob-Rajoan",
+    facebook: "https://www.facebook.com/rajoan.bosunya",
+    linkedin: "https://www.linkedin.com/in/md-rajoan-bosunya-151a44253/",
     twitter: "https://twitter.com",
 };
 export {

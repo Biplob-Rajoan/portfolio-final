@@ -10,39 +10,40 @@ const introdata = {
         first: "I love coding",
         second: "Building fast and accessible web experiences.",
         third: "Turning ideas into interactive user interfaces.",
-        
+
     },
     description: "Passionate about turning ideas into web applications with responsive designs and a seamless user experience.",
     your_img_url: "https://i.ibb.co.com/pjG2mdK/6208502920496923147.jpg",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "About MySelf",
+    aboutme: "I am a passionate front-end developer skilled in crafting responsive, user-friendly web applications. Proficient in modern tools, clean code, problem-solving, and innovative designs to deliver seamless, dynamic, and engaging user experiences efficiently.",
 };
-const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
-    },
-];
+// const worktimeline = [{
+//     jobtitle: "Designer of week",
+//     where: "YAdfi",
+//     date: "2020",
+// },
+// {
+//     jobtitle: "Designer of week",
+//     where: "Jamalya",
+//     date: "2019",
+// },
+// {
+//     jobtitle: "Designer of week",
+//     where: "ALquds",
+//     date: "2019",
+// },
+// ];
 
-const skills = [{
-        name: "Python",
-        value: 90,
+const skills = [
+    {
+        name: "HTML",
+        value: 85,
     },
     {
-        name: "Djano",
+        name: "CSS",
         value: 85,
     },
     {
@@ -51,100 +52,137 @@ const skills = [{
     },
     {
         name: "React",
-        value: 60,
+        value: 85,
     },
     {
-        name: "Jquery",
+        name: "Next.Js",
+        value: 85,
+    },
+    {
+        name: "Typescript",
+        value: 85,
+    },
+    {
+        name: "Node",
+        value: 85,
+    },
+    {
+        name: "Express.Js",
+        value: 85,
+    },
+    {
+        name: "MongoDB",
+        value: 85,
+    },
+    {
+        name: "PostMan",
         value: 85,
     },
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
+    title: "Basic Website Development",
+    description: "Creating simple and functional websites using HTML, CSS, and JavaScript tailored to your business or personal needs.",
+},
+{
+    title: "Landing Page Development",
+    description: "Creating visually appealing landing pages optimized for conversions and lead generation.",
+},
+{
+    title: "Portfolio Websites",
+    description: "Designing clean and modern portfolio websites for individuals or businesses to showcase their work.",
+},
+{
+    title: "Template Customization",
+    description: "Modifying and customizing website templates to align with your brand and preferences.",
+},
+{
+    title: "Responsive Design",
+    description: "Building websites that adapt seamlessly to mobile, tablet, and desktop devices for a consistent user experience..",
+},
+{
+    title: "Bug Fixes and Updates",
+    description: "Fixing layout issues, broken links, or other minor bugs, and updating content as required.",
+},
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+    img: "https://picsum.photos/400/?grayscale",
+    description: "The wisdom of life consists in the elimination of non-essentials.",
+    link: "#",
+},
+{
+    img: "https://picsum.photos/400/800/?grayscale",
+    description: "The wisdom of life consists in the elimination of non-essentials.",
+    link: "#",
+},
+{
+    img: "https://picsum.photos/400/?grayscale",
+    description: "The wisdom of life consists in the elimination of non-essentials.",
+    link: "#",
+},
+{
+    img: "https://picsum.photos/400/600/?grayscale",
+    description: "The wisdom of life consists in the elimination of non-essentials.",
+    link: "#",
+},
+{
+    img: "https://picsum.photos/400/300/?grayscale",
+    description: "The wisdom of life consists in the elimination of non-essentials.",
+    link: "#",
+},
+{
+    img: "https://picsum.photos/400/700/?grayscale",
+    description: "The wisdom of life consists in the elimination of non-essentials.",
+    link: "#",
+},
 
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+{
+    img: "https://picsum.photos/400/600/?grayscale",
+    description: "The wisdom of life consists in the elimination of non-essentials.",
+    link: "#",
+},
+{
+    img: "https://picsum.photos/400/300/?grayscale",
+    description: "The wisdom of life consists in the elimination of non-essentials.",
+    link: "#",
+},
+{
+    img: "https://picsum.photos/400/?grayscale",
+    description: "The wisdom of life consists in the elimination of non-essentials.",
+    link: "#",
+},
+{
+    img: "https://picsum.photos/400/550/?grayscale",
+    description: "The wisdom of life consists in the elimination of non-essentials.",
+    link: "#",
+},
+{
+    img: "https://picsum.photos/400/?grayscale",
+    description: "The wisdom of life consists in the elimination of non-essentials.",
+    link: "#",
+},
+{
+    img: "https://picsum.photos/400/700/?grayscale",
+    description: "The wisdom of life consists in the elimination of non-essentials.",
+    link: "#",
+},
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "mdrajoanbosunya@gmail.com",
+    YOUR_FONE: "+8801737542089",
+    description: //"Creative front-end developer passionate about building responsive, user-friendly web applications with clean code, modern tools, and innovative designs.Feel free to reach out anytime!" ,
+        <div>
+            <p>Creative front-end developer building responsive applications with clean code, modern tools, and innovative designs.</p>
+            <p>Feel free to reach me out anytime!</p>
+        </div>,
+
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_SERVICE_ID: "service_fvhbrx9",
+    YOUR_TEMPLATE_ID: "template_h1egjaf",
+    YOUR_USER_ID: "wCBgDVVCsJMiY9Bhz",
 };
 
 const socialprofils = {
@@ -157,7 +195,7 @@ export {
     meta,
     dataabout,
     dataportfolio,
-    worktimeline,
+   // worktimeline,
     skills,
     services,
     introdata,
